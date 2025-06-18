@@ -1,12 +1,30 @@
-# React + Vite
+# 💧 SolFaucet - A Solana Wallet Adapter dApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple decentralized application (dApp) built on the **Solana blockchain**, designed to simulate a faucet-like experience. This project demonstrates the integration of **Solana wallet adapters** and basic token transfers from a funded dev wallet to a user's wallet.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Connect your Solana wallet (Phantom, Solflare, Backpack, etc.)
+- Request SOL tokens from a pre-funded faucet wallet
+- Built using React + Solana Wallet Adapter + Solana Web3.js
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- ⚛️ React + Vite
+- 🌞 TailwindCSS (optional)
+- 🧠 Solana Web3.js
+- 🔌 `@solana/wallet-adapter-react`
+- 🔐 `@solana/wallet-adapter-wallets`
+- 💼 Phantom, Solflare, Backpack wallet support
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/solfaucet.git
+cd solfaucet
+npm install
